@@ -26,6 +26,26 @@ Frontend: `http://localhost:5173`
 
 API: `http://localhost:8080/api/health`
 
+## Deploy Frontend To Vercel
+
+This repo is a monorepo. Deploy the frontend as a Vercel project with these settings:
+
+```text
+Root Directory: client
+Framework Preset: Vite
+Install Command: npm install
+Build Command: npm run build
+Output Directory: dist
+```
+
+Add this Vercel environment variable after your API is deployed:
+
+```text
+VITE_API_BASE_URL=https://your-backend-domain.com/api
+```
+
+The Express API should be hosted separately on a Node server host such as Render, Railway, Fly.io, or a VPS. Vercel can serve the frontend well, but the current backend needs persistent Node execution and persistent storage. For demos without Postgres, the backend can use fail-safe JSON storage on a persistent server host. For production, set `DATABASE_URL` and use Postgres.
+
 ## Fail-Safe Mode
 
 No API keys are required. If `DATABASE_URL` is empty, the backend runs in fail-safe mode and writes local JSON files under `server/data`. This is useful for demos, recruiter walkthroughs, and laptops without Postgres.

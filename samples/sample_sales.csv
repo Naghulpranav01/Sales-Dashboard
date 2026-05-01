@@ -1,0 +1,19 @@
+Order Date,Region,Category,Customer,Quantity,Unit Price,Cost,Revenue
+2025-01-12,North,Hardware,Acme Retail,4,1200,3900,4800
+2025-01-18,South,Software,Nova Stores,12,340,2100,4080
+2025-02-03,West,Services,Atlas Group,2,2400,3200,4800
+2025-02-18,East,Hardware,Urban Mart,5,980,3700,4900
+2025-03-08,North,Software,Acme Retail,18,290,2800,5220
+2025-03-21,South,Services,Helio Foods,3,1800,4200,5400
+2025-04-02,West,Hardware,Vertex Labs,7,760,4100,5320
+2025-04-16,East,Software,Urban Mart,20,260,3500,5200
+2025-05-04,North,Services,Atlas Group,4,1700,5200,6800
+2025-05-23,South,Hardware,Nova Stores,6,880,4700,5280
+2025-06-11,West,Software,Vertex Labs,15,310,2600,4650
+2025-06-27,East,Services,Helio Foods,2,2200,5100,4400
+2025-07-09,North,Hardware,Acme Retail,8,910,5600,7280
+2025-07-22,South,Software,Nova Stores,25,240,3300,6000
+2025-08-07,West,Services,Atlas Group,5,1650,6100,8250
+2025-08-19,East,Hardware,Urban Mart,3,1500,4700,4500
+2025-09-03,North,Software,Vertex Labs,22,275,3400,6050
+2025-09-15,South,Services,Helio Foods,6,1550,7000,9300

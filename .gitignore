@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Builds and generated output
+client/dist/
+.dist/
+dist/
+coverage/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+client/.env
+server/.env
+
+# Local fail-safe demo storage
+server/data/*.json
+!server/data/.gitkeep
+
+# Logs and OS/editor files
+logs/
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
